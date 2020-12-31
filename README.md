@@ -1,4 +1,5 @@
 
+
 # Mini Regex
 Mini regex module for microcontrollers - Based on the [Tiny Regex C](https://github.com/kokke/tiny-regex-c) by kokke
 
@@ -20,3 +21,9 @@ Edited by Renan R. Duarte (24/01/2019). Code heavily modified to suit my applica
 - '\W' -> Non-alphanumeric
 - '\d' -> Digits, [0-9]
 - '\D' -> Non-digits
+
+## Usage:
+
+The Regex_Match function returns the array index where the pattern is found in the string or -1 if not found.
+
+`Regex_Match("My String", "Pattern")` 
